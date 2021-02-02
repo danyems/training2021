@@ -1,0 +1,19 @@
+Logging
+
+java.util.logging
+
+MEssy ang system.out
+Logger - manages whole logging
+Handler - take over on when or where to store messsage (display, log file, database
+Formatter - naghahandle ng format nung log message
+
+we dont share logger across classes
+
+logger talks to the handles, handler decides where to save
+
+WARNING means may warning ka sa code, pero nag supresswarning ka lang.
+
+sa loob ng catch maglalagay ng severe
+
+PAG may xml, laging may database
+
